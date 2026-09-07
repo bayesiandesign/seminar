@@ -9,3 +9,7 @@ plugins:
 sass:
   quiet_deps: true
   silence_deprecations: [import]
+
+nav_pages:
+  - schedule.md
+  - about.md
