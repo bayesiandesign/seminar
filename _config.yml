@@ -1,9 +1,3 @@
-theme: minima
-
----
 title: "Bayesian Experimental Design & Active Learning Seminar Series"
-toc: false
-format:
-  html:
-    smooth-scroll: true
----
+
+theme: minima
