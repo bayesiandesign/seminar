@@ -21,9 +21,9 @@ minima:
   #     * solarized          Adaptive skin for solarized color scheme skins.
   skin: classic
 
-nav_pages:
-  - schedule.md
-  - about.md
-
-# Set to `true` to show excerpts on the homepage.
+  nav_pages:
+    - schedule.md
+    - about.md
+  
+  # Set to `true` to show excerpts on the homepage.
   show_excerpts: false
