@@ -22,8 +22,8 @@ minima:
   skin: classic
 
   nav_pages:
-    - schedule.md
-    - about.md
+    - schedule.html
+    - about.html
   
   # Set to `true` to show excerpts on the homepage.
   show_excerpts: false
