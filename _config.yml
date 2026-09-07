@@ -13,3 +13,5 @@ sass:
 nav_pages:
   - schedule.md
   - about.md
+
+show_excerpts: false
