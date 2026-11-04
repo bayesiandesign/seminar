@@ -19,24 +19,24 @@ layout: default
 
   <div class="speaker-card">
   
-  <div class="speaker-photo-container"> <img src="{{ '/assets/images/speakers/henrymoss.jpeg' | relative_url }}" alt="Name" class="speaker-photo"> </div>
+  <div class="speaker-photo-container"> <img src="{{ '/assets/images/speakers/marcelhedman.png' | relative_url }}" alt="Name" class="speaker-photo"> </div>
   
   <div class="speaker-info">
   
   <h2 class="talk-title">
-    Conditioning Gaussian Processes on Almost Anything
+    MD-BED: Coordinating Multiple Designers in Bayesian Experimental Design
   </h2>
   
   <h3 class="speaker-name">
-    <a href="https://henrymoss.github.io/">Henry Moss</a>
+    <a href="https://marcelhedman.github.io/">Marcel Hedman</a>
   </h3>
   
   <p class="speaker-affiliation">
-    Lancaster University
+    University of Oxford
   </p>
   
   <div class="seminar-details">
-    <span><strong>03 November 2026</strong></span>
+    <span><strong>17 November 2026</strong></span>
     <span class="details-separator">|</span>
     <span><strong>4:00 PM UTC</strong></span>
   </div>
@@ -48,7 +48,7 @@ layout: default
   
       <div class="speaker-section-content">
         <p>
-          Gaussian processes (GPs) offer a principled probabilistic model over functions, but exact inference is restricted to the linear-Gaussian regime. We establish an explicit equivalence between GPs and a class of linear diffusion models, recasting predictive sampling as an ODE with closed-form Gaussian dynamics and a likelihood-dependent guidance term that admits a simple Monte Carlo approximation. In the linear-Gaussian setting, we recover standard GP conditioning exactly; beyond conjugacy, the same machinery handles any conditioning statement admitting point-wise likelihood evaluation — including non-linear physics, and, for the first time, natural language via large language models. Whitening isolates the irreducible non-Gaussian dynamics, minimising Wasserstein-2 transport cost and eliminating numerical stiffness. The result is a general-purpose GP inference scheme requiring no bespoke derivations. Together, these results provide a general mechanism for incorporating the full richness of real-world knowledge as conditioning information, opening a new frontier for the probabilistic modelling of real-world problems.
+          To date, Bayesian experimental design (BED) has largely studied how a single adaptive policy should choose experiments. Yet many real-world settings involve multiple designers making experimental decisions independently, including laboratories, field teams, and decentralised robots. Even when individual designers choose informative experiments, they may collectively acquire redundant information. In this talk, we introduce multi-designer Bayesian experimental design (MD-BED) and explore the coordination problem that arises when designers share an inferential objective but act using only their local histories. We show how this problem can be characterised information-theoretically, and how centralised training with decentralised execution (CTDE) can improve information acquisition and encourage designer specialisation under heterogeneous experimental costs, without requiring communication during execution.
         </p>
       </div>
     </details>
@@ -58,7 +58,7 @@ layout: default
   
       <div class="speaker-section-content">
         <p>
-          Henry Moss is a Reader in Mathematics and AI at Lancaster University, where he leads the Mathematical AI for Decision and Discovery (MADD) group. His current research works with industry partners to remove innovation bottlenecks in areas such as drug discovery and sustainable engineering, where experiments are technically and financially costly. Much of his work centres on Gaussian process flows, Bayesian optimisation, active learning and experimental design.
+          Marcel Hedman is a DPhil candidate in Statistical Machine Learning at the University of Oxford, supported by the StatML fellowship and supervised by Professor Chris Holmes and Professor Tom Rainforth. His research focuses on sequential decision making, with particular interests in multi-agent reinforcement learning, world modelling and Bayesian experimental design.
         </p>
       </div>
     </details> 
